@@ -1,0 +1,98 @@
+body{
+     font-family: "Happy Monkey", system-ui;
+     text-align: center;
+     background: linear-gradient(grey,rgb(77, 21, 21));
+     color: #ffffff;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+h1,h2,h4,h3,p,a{
+    text-shadow: 0px 0px 1px black;
+}
+
+#age,#dob{
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#profile-img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid green;
+    border-radius: 50%;
+}
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 5px;
+}
+
+.gift-hint{
+    margin-top: 0;
+}
+
+.gift-img{
+    background-image: url('./public/images/gift.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border:6px solid white;
+    border-radius: 6px;
+}
+
+.gift-img:hover{
+    background-image: url('./public/images/cake.jpg');
+}
+
+.second-gift{
+    margin-top: 50px;
+}
+
+#gift-img-happy:hover{
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmd4M3JieWpod2U4bmVnOTE1ZGVsZWZnODh2czBwdXhwd2E1eGxlZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5xtDarIN81U0KvlnzKo/giphy.gif');
+    background-size: cover;
+}
+
+.genius{
+    margin-top:50px;
+}
+
+#genius-gift:hover{
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzlsZzV6aDE2anZzejRkZGQ2d2d2c2hvdjU1MDEyeWMyYnUzNmV5eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3i4xTtJQIJk0o/giphy.gif');
+    background-size: cover;
+}
+
+.badass{
+    margin-top: 50px;
+}
+
+#badass-gift:hover{
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFoNjY1bzRrcDNzaWc5dmd6ODhxNDg2b2N3YmQ1aDFrcm51ejNyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FsUo1Qn895NS0/giphy.gif');
+    background-size: cover;
+}
+
+.final-gift{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#final-gift{
+    height: 200px;
+    
+}
+
+#final-gift:hover{
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWd2amp0cWtmMnI2dm5jc3dpampjenhsdTg4MHkxOHhldDgwMXFleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DfLwM9kttDFEQ/giphy.gif');
+    background-size:cover;
+}
+
+a{
+    color: #ffffff;
+}
