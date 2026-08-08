@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Cricket Score</h1>
+        <div class="score-display">
+            <h2>Total Score</h2>
+            <h2>Balls</h2>
+        </div>
+        <div class="score-display">
+            <div id="score">0</div>
+            <div id="balls">300</div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="score-button" id="addOne" onclick="one()">+1</button>
+        <button class="score-button" id="addFour" onclick="four()">+4</button>
+        <button class="score-button" id="addSix" onclick="six()">+6</button>
+        <button class="score-button" id="reset" onclick="resetScore()">Reset</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
